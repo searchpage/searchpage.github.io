@@ -1,0 +1,122 @@
+.navbar1 {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-item {
+    margin: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.logo img {
+    margin-top: 100px;
+    height: 92px;
+
+}
+
+.logo{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.rounded-input{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: white;
+    border: 1px solid lightgray;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 600px;
+    max-width: 600px;
+    border-left: 20px;
+    padding: 0px 20px;
+}
+
+.buttons{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+.googleSearch {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    color: black;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.googleSearch:hover {
+    border: 1px solid black;
+    text-decoration: dotted;
+}
+
+.advancedSearch {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.line {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.findPagesWith {
+    font-size: 18px;
+    color: #333333;
+}
+
+.advanced {
+    margin: 40px;
+}
+
+.row-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.left {
+    width: 200px;
+}
+
+.right {
+    width: 385px;
+}
+
+.btn-advanced {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: flex-end;
+    width: 585px;
+    margin-top: -10px;
+    margin-top: 15px;
+}
